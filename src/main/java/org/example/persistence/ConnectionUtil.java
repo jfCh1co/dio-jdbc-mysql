@@ -13,9 +13,9 @@ public class ConnectionUtil {
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/jdbc-sample",
-                "root",
+                "jdbc:mysql://172.19.2.65:3306/jdbc-sample",
+                "appuser",
                 "123456"
-        );
+                );
     }
 }
