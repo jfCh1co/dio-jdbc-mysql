@@ -13,6 +13,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+
         var flyway = Flyway.configure()
                 .dataSource("jdbc:mysql://172.19.2.65:3306/jdbc-sample",
                         "appuser",
