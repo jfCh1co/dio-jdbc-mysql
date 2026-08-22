@@ -1,11 +1,9 @@
-package org.example.persistence.entity;
+package org.example.persistence;
 
-import org.example.persistence.ConnectionUtil;
+import org.example.persistence.entity.EmployeeEntity;
 
-import com.mysql.cj.jdbc.StatementImpl;
 import java.sql.SQLException;
 import java.time.OffsetDateTime;
-import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
